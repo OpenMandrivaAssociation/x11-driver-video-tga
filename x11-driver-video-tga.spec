@@ -13,7 +13,7 @@ BuildRequires: x11-util-macros >= 1.0.1
 Conflicts: xorg-x11-server < 7.0
 
 %description
-The X.org driver for DEC Tga Cards.
+x11-driver-video-tga is the X.org driver for DEC Tga Cards.
 
 %prep
 %setup -q -n xf86-video-tga-%{version}
