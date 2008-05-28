@@ -1,7 +1,7 @@
 Name: x11-driver-video-tga
 Version: 1.1.0
 Release: %mkrel 6
-Summary: The X.org driver for DEC Tga Cards
+Summary: X.org driver for DEC Tga Cards
 Group: Development/X11
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-tga-%{version}.tar.bz2
