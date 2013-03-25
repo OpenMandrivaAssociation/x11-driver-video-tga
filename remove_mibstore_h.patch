@@ -1,0 +1,21 @@
+--- xf86-video-tga-1.2.2/src/tga_driver.c~	2012-07-16 03:54:28.000000000 +0000
++++ xf86-video-tga-1.2.2/src/tga_driver.c	2013-03-25 13:36:02.541832185 +0000
+@@ -46,8 +46,6 @@
+ 
+ /* software cursor */
+ #include "mipointer.h"
+-/* backing store */
+-#include "mibstore.h"
+ 
+ /*  #include "mibank.h" */
+ /* colormap manipulation */
+--- xf86-video-tga-1.2.2/src/tga_accel.c~	2012-07-16 03:54:04.000000000 +0000
++++ xf86-video-tga-1.2.2/src/tga_accel.c	2013-03-25 13:36:37.127831928 +0000
+@@ -37,7 +37,6 @@
+ #include "xf86cmap.h"
+ #include "mipointer.h"
+ 
+-#include "mibstore.h"
+ #include "miline.h"
+ 
+ #include "tga_regs.h"
