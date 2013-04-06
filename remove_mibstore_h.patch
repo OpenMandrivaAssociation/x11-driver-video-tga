@@ -1,5 +1,15 @@
---- xf86-video-tga-1.2.2/src/tga_driver.c~	2012-07-16 03:54:28.000000000 +0000
-+++ xf86-video-tga-1.2.2/src/tga_driver.c	2013-03-25 13:36:02.541832185 +0000
+--- xf86-video-tga-1.2.2/src/tga_accel.c.0000~	2012-07-16 05:54:04.000000000 +0200
++++ xf86-video-tga-1.2.2/src/tga_accel.c	2013-04-06 02:48:00.869880651 +0200
+@@ -37,7 +37,6 @@
+ #include "xf86cmap.h"
+ #include "mipointer.h"
+ 
+-#include "mibstore.h"
+ #include "miline.h"
+ 
+ #include "tga_regs.h"
+--- xf86-video-tga-1.2.2/src/tga_driver.c.0000~	2012-07-16 05:54:28.000000000 +0200
++++ xf86-video-tga-1.2.2/src/tga_driver.c	2013-04-06 02:48:29.313673385 +0200
 @@ -46,8 +46,6 @@
  
  /* software cursor */
@@ -9,13 +19,11 @@
  
  /*  #include "mibank.h" */
  /* colormap manipulation */
---- xf86-video-tga-1.2.2/src/tga_accel.c~	2012-07-16 03:54:04.000000000 +0000
-+++ xf86-video-tga-1.2.2/src/tga_accel.c	2013-03-25 13:36:37.127831928 +0000
-@@ -37,7 +37,6 @@
- #include "xf86cmap.h"
- #include "mipointer.h"
+@@ -1451,7 +1449,6 @@ TGAScreenInit(SCREEN_INIT_ARGS_DECL)
+     
+     fbPictureInit (pScreen, 0, 0);
+     
+-    miInitializeBackingStore(pScreen);
+     xf86SetBackingStore(pScreen);
+     xf86SetSilkenMouse(pScreen);
  
--#include "mibstore.h"
- #include "miline.h"
- 
- #include "tga_regs.h"
