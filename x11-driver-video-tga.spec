@@ -3,7 +3,7 @@
 Summary:	X.org driver for DEC Tga Cards
 Name:		x11-driver-video-tga
 Version:	1.2.2
-Release:	23
+Release:	24
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
