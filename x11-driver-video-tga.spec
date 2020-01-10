@@ -20,7 +20,7 @@ x11-driver-video-tga is the X.org driver for DEC Tga Cards.
 
 %prep
 %setup -qn xf86-video-tga-%{version}
-%apply_patches
+%autopatch -p1
 
 %build
 %configure
