@@ -6,7 +6,7 @@ Version:	1.2.2
 Release:	28
 Group:		System/X11
 License:	MIT
-Url:		http://xorg.freedesktop.org
+Url:		https://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-tga-%{version}.tar.bz2
 Patch0:		remove_mibstore_h.patch
 
